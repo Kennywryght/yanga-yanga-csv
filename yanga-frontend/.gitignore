@@ -1,0 +1,30 @@
+# === FRONTEND ===
+node_modules
+.svelte-kit
+/build
+.output
+.vercel
+.netlify
+wrangler
+
+# === BACKEND ===
+__pycache__/
+*.py[cod]
+*.sqlite3
+instance/
+*.log
+*.db
+
+# === ENV & CONFIG ===
+.env
+.env.*
+!.env.example
+!.env.test
+
+# === SYSTEM FILES ===
+.DS_Store
+Thumbs.db
+
+# === VITE TEMP FILES ===
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
